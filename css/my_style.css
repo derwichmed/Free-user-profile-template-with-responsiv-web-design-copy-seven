@@ -1,0 +1,258 @@
+body > header{
+    height: 700px
+}
+body > header .sigle img{
+    width: 200px;
+    height: 50px
+}
+body > header .nav_bar{
+    padding-top: 17px
+}
+body > header .nav_bar .nav_bar_item{
+    display: inline-block;
+    margin-left: 15px
+}
+body > header .nav_bar .nav_bar_item a{
+    color: #e0e0e0;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+body > header .nav_one{
+    height: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+body > header .description{
+    text-align: center;
+    padding-top: 100px
+}
+body > header .description .user_name{
+    color: #fff;
+    font-size: 90px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+body > header .description .jobs{
+    margin-top: 55px
+}
+body > header .description .jobs{
+    padding: 0px;
+    list-style: none;
+}
+body > header .description .jobs li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+body > header .description .social_media_links{
+    margin-top: 15px
+}
+body > header .description .social_media_links img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: auto;
+    margin-left: 35px
+}
+.user_cv{
+    background-color: rgba(60,61,60,.500);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px
+}
+.user_cv img{
+    width: 100%;
+    height: 500px
+}
+.user_cv .user_cv_content .tiltle{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+.user_cv .user_cv_content .description{
+    color: #e0e0e0;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+.user_cv .user_cv_content .progress{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0px;
+    margin-bottom: 25px
+}
+.user_cv .user_cv_content .progress .progress-bar{
+    height: 10px;
+    background-color: white;
+    border-radius: 0px
+}
+.user_cv .user_cv_content .progress_bar_desc{
+    width: 100%;
+    margin: 0px;
+}
+.user_cv .user_cv_content .progress_bar_desc > div{
+    padding-left: 3px;
+    padding-right: 40px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+.user_cv .user_cv_content footer{
+    margin: 0px;
+    width: 100%
+}
+.user_services{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 180px
+}
+.user_services .item{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.user_services_label{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 35px;
+    
+    margin-top: 180px;
+}
+.user_services_label strong{
+    border-bottom: white 3px solid
+}
+.user_services .item .icon{
+    width: 85px;
+    height: 85px;
+    background-color: rgba(255, 255, 255, 0.08);
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    margin-top: 25px;
+    padding-top: 22px
+}
+.user_services .item .icon img{
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+.user_services .item .title{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px
+}
+.user_services .item p{
+    color: #e0e0e0;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center
+}
+.user_contact{
+    margin-top: 80px;
+    padding-bottom: 35px;
+    padding-top: 80px;
+    background-color: rgba(60,61,60,.500);
+}
+.user_contact .item{
+    margin-left: 25px
+}
+.user_contact .item .icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px
+}
+.user_contact .item .content{
+    color: #e0e0e0;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+.user_form_contact{
+    background-color: rgba(60,61,60,.500);
+    margin-bottom: 50px
+}
+.user_form_contact .form-control{
+    background-color: transparent;
+    margin-bottom: 35px;
+}
+.user_form_contact textarea{
+    height: 300px
+}
+.menu_icon{
+    display: none;
+    padding-top: 10px
+}
+.menu_icon img{
+    width: 35px;
+    height: 35px
+}
+@media(max-width: 900px){
+    .menu_icon{
+        display: inline-block
+    }
+    body > header .nav_bar{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        top: 60px;
+        background-color: black;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        display: none
+    }
+    body > header .nav_bar .nav_bar_item{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px
+    }
+    body > header .nav_one{
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    body > header .description .user_name{
+        font-size: 35px
+    }
+    .user_cv{
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    .user_services{
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    .user_services .item{
+        width: 100%;
+        margin-bottom: 25px
+    }
+}
